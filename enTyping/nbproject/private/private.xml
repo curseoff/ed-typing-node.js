@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/home/deploy/development/enTyping/server/controller/abstract/abstractController.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/controller/admin/accountController.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/model/User.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/lib/Module.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/lib/Kernel.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/lib/path.coffee</file>
+        <file>file:/home/deploy/development/enTyping/server/init.coffee</file>
+    </open-files>
+</project-private>

@@ -1,0 +1,43 @@
+<div id="account_description">
+    <section>
+        <h1>edTypingの英語学習システム</h1>
+        <br />
+        <p>edTypingなら英語がスピーディーに、より楽しく学べます。edTypingでは次のように学びます:</p>
+        <br />
+        <h2>日本語と英語を母国語とする人々とのコミュニケーション</h2>
+        <p>お互いに教えあうことで学びます</p>
+        <br />
+        <h2>英英辞典</h2>
+        <p>日本語を介せず英語そのもので考えることを学びます。</p>
+    </section>
+</div>
+
+<form action="/admin/account/create" method="post" id="account_login">
+    <table>
+        <tr>
+            <td><label for="account_name">ユーザー名(<span class="shortcat_key">U</span>):</label></td>
+        </tr>
+        <tr>
+            <td><input name="account[name]" id="account_name" type="text" size="20" accesskey="u" /></td>
+        </tr>
+        <tr>
+            <td><label for="account_password">パスワード(<span class="shortcat_key">P</span>):</label></td>
+        </tr>
+        <tr>
+            <td><input name="account[password]" id="account_password" type="password" accesskey="p" /></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="account[auto]" id="account_auto" value="1" /><label for="account_auto">次回から自動的にログイン</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="center">
+                    <input type="submit" value="ログイン" style="width: 8em; margin-top: 5px;" />
+                </div>
+            </td>
+        </tr>                     
+    </table>
+</form>
+

@@ -1,0 +1,17 @@
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>名前</th>
+        <th>メールアドレス</th>
+        <th>作成日</th>
+    </tr>
+<% for user in @users: %>
+  　<tr>
+       <td><%= user._id %></td>
+       <td><%= user.name %></td>
+       <td><%= user.email %></td>
+       <td><%= user.created_at %></td>
+   </tr>
+<% end %>    
+</table>

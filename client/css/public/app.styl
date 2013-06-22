@@ -1,0 +1,84 @@
+// Example Stylus file
+//
+// Stylus docs:  http://learnboost.github.com/stylus/docs/js.html
+// Nib docs:     http://visionmedia.github.com/nib
+
+@import 'nib'
+
+// Main
+
+body, html
+  height 100%
+
+body
+  font normal 1em sans-serif
+  background linear-gradient(top, #eee, #fff)
+
+#site_title
+  text-align center
+
+#user_info
+  text-align center
+
+#site_info
+  text-align center
+
+p
+  margin-bottom 1em
+
+
+
+h1
+  text-shadow 1px 1px 2px white
+
+
+
+
+// Quick Chat Demo
+#account
+  border 1px solid #ccc
+  border-radius 5px
+  text-align right
+  width 285px
+  color #666
+
+.account
+    width 200px
+    border none
+    border-bottom 2px solid #ccc
+    
+#typing
+  border 1px solid #ccc
+  width 700px
+  text-align left
+  margin 10px auto
+  padding 15px
+  border-radius 5px
+  h3
+    font-size 1.0em
+    font-weight normal
+  h5
+    padding 5px 0
+    color #666
+    font-weight normal
+    font-size 0.8em
+  #word
+    border none
+    box-shadow inset 0 0 2px #777
+    border-radius 5px
+    width 690px
+    padding 5px
+
+#word-history
+  text-align left
+
+  .time
+    color lightgrey
+    font-weight bold
+
+  .message
+    margin-left 0px
+
+.typing-color
+  color red
+  text-decoration underline
